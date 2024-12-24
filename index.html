@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./giangsinh.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Thiệp nè
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img
+                    src="https://github.com/Panbap/datapanbap/blob/main/image/mery.png?raw=true">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <p>Chào vợ yêu. Đây sẽ là giáng sinh</p>
+                <p>chúng ta ở bên cạnh nhau,</p>
+                <p>đón giáng sinh cùng nhau và cũng là</p>
+                <p>lần đầu tiên anh biết giáng sinh là</p>
+                <p>như thế nào. Cảm ơn bé đã chấp nhận</p>
+                <p>anh. Dù biết anh trẻ con và còn</p>
+                <p>rất nhiều khiếm khuyết.</p>
+                <p>Anh mong chúng ta sẽ đón giáng sinh </p>
+                <p>cùng nhau từ nay về sau bé nhé.</p>
+                <p class="text-right">Chúc mừng Giáng Sinh!</p>
+                <p class="text-right">♥Cún Con To Bự♥</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
